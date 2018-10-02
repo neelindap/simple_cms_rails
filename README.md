@@ -17,7 +17,8 @@ In a separate terminal window, run
 
 Unless there was an error in step 2 or 3, the application should be up and running and can be accessed from the browser.
 
-Depending upon the OS you are running, you can run <host>:3000
+Depending upon the OS you are running, you can run <host>:3000/demo/index
 <host> => 
 *nix based system : localhost
 Windows systems : Docker VM IP. Can be obtained by running 'docker-machine ip' on terminal
+
