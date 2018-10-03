@@ -18,7 +18,8 @@ default: &default
   # Host : 
   # *nix based system : localhost
   # Windows systems : Docker VM IP. Can be obtained by running 'docker-machine ip' on terminal
-  host: '192.168.99.100'
+  # host: '192.168.99.100'
+  host: localhost
 
 development:
   <<: *default
